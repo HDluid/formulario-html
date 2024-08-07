@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html>
+<br>
   <head>
     <title>Formulário</title>
     <link rel="stylesheet" href="estilo2.css" />
   </head>
-  <body>
+  <br>
     <h1>Formulário</h1>
     <h1>Área de login</h1>
     <form action="/Paginas/login.html" method="get">
-      <label>Escolha bebida</label></br>
+      <br> Escolha bebida </br>
       <select nome="pedido">
         <option></option>
         <option value="p1">Café</option>
@@ -19,9 +19,22 @@
       <input type="submit" value="Enviar" />
     </form>
     <h1>Área de cadastro</h1>
-    <form>
-      <input type="checkbox" name="termos" id="termos" />
-      <label for="termos">Li e aceito os termos</label>
+      Marca da bebida:</br>
+      <select name="Marca">
+        <option value="M1">Brama</option>
+        <option value="M2">Skol</option>
+        <option value="M3">Devasa</option>
+      </select></br>
+        <label>
+          Quantas vezes bebe por mês?</br>
+          <input type="textarea" name="frequencia"/></br>
+          Em que horário costuma beber?</br>
+          <input type="time" name="horario"/>
+        </label>
+    <br>
+      Concorde com os termos:</br>
+      <input type="checkbox"/>
+        Li e aceito os termos</label>
     </form>
   </body>
 </html>
